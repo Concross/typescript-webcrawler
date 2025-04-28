@@ -1,0 +1,31 @@
+{
+    "name": "typescript-webcrawler",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/Concross/typescript-webcrawler#readme",
+    "bugs": {
+        "url": "https://github.com/Concross/typescript-webcrawler/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Concross/typescript-webcrawler.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "tsx ./src/index.ts",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "@types/jsdom": "^21.1.7",
+        "@types/node": "^22.15.2",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.3",
+        "vitest": "^3.1.2"
+    },
+    "dependencies": {
+        "jsdom": "^26.1.0"
+    }
+}
